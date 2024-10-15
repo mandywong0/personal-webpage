@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Syncopate&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+        <div id="navBar">
+            <a class="navBar-item" href="#home">Home</a>
+            <span> • </span>
+            <a class="navBar-item" href="#projects">Projects</a>
+            <span> • </span>
+            <a class="navBar-item" href="#about-me">About Me</a>
+        </div>
+        <section id="home">
+            <h2>hello world, I'm</h2> 
+            <h1>Mandy Wong</h1>
+            <h3>an aspiring <strong>software engineer</strong></h3>
+            <h3>&</h3>
+            <h3>a fourth-year <strong>Computer Science</strong> student at UC Berkeley</h3>
+            <img src="self-portrait.jpg" alt="Mandy's self-portrait" width="202" height="202">
+        </section>
+
+        <section id="projects">
+            <div class="left">
+                <span id="projects-header">My Top <br>Programming Projects</span>
+                <h4>yes i love coding bleh bleh bleh bleh bleh pls look at my awesome code.</h3>
+                <img src="logo.jpg" alt="a computer logo" width="300" height="300" style="margin-left: 40px;">
+            </div>
+            <div class="right"> 
+                <a href="https://github.com/cs161-students/sp24-proj2-jusman"><div class="showcase"> 
+                    <h4 class="project-name">FileSafe</h4>
+                    <ul>
+                        <li style="font-size: 12px"> A secure file sharing system that implements safe user authentication and preserves data integrity & confidentiality
+                            guarantee </li>
+                        <li style="font-size: 12px">key skills:
+                            <ul>
+                                <li style="font-size: 12px">Golang</li>
+                                <li style="font-size: 12px">AES-CTR, HMAC-SHA-512, RSA</li>
+                                <li style="font-size: 12px">End-to-end encryption, password hashing</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div></a>
+                <a href="https://gaiamolinaro.itch.io/out-of-sight"><div class="showcase"> 
+                    <h4 class="project-name">Out of Sight</h4>
+                    <ul>
+                        <li style="font-size: 12px"> An innovative multilevel underwater adventure 2D stealth video game</li>
+                        <li style="font-size: 12px">key implementations:
+                            <ul>
+                                <li style="font-size: 12px">rigid body physics</li>
+                                <li style="font-size: 12px">user-input-driven movmenets</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div></a>
+                <a href="https://github.com/mandywong0/Feelosophy"><div class="showcase"> 
+                    <h4 class="project-name">Feelosophy</h4>
+                    <ul>
+                        <li style="font-size: 12px">An IOS app aims to increase users' self-awareness of their mental health</li>
+                        <li style="font-size: 12px">key features:
+                            <ul>
+                                <li style="font-size: 12px">mood tracking</li>
+                                <li style="font-size: 12px">doggo pics API</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div></a>
+            </div>
+        </section>
+
+        <section id="about-me">
+            <div>
+                <h2 style="text-shadow: 1px 1px 0 #000;">Who Am I?</h2>
+                <h4>a 21-year-old aspiring software engineer based in Bay area, CA. I’m interested in software engineering, 
+                    full-stack development, video game development, cybersecurity, and more. Besides programming, I enjoy crocheting,
+                    doing yoga, and playing video games.</h3>
+            </div>
+            <div class="contact-me">
+                <img id="sp-flippable" src="self-portrait.jpg" alt="Mandy's self-portrait" width="202" height="202">
+                <h5>contact me:</h5>
+                <a href="email_form.html"><img class="contact-logo" src="email_logo.webp" alt="email logo" width="55" height="55"></a>
+                <a href="https://www.instagram.com/mandy._w/"><img class="contact-logo" src="insta_logo.png" alt="instagram logo" width="50" height="50"></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=ytDBHGzeXP5QBwMC"><img class="contact-logo" src="linkedin_logo.webp" alt="linkedin logo" width="50" height="50"></a>
+            </div>
+        </section>
+
+        <img id="logo" src="logo.jpg" alt="a computer logo" width="80" height="80">
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
